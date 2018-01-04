@@ -34,6 +34,13 @@ body {
   overflow: hidden;
 }
 
+ul img {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .banner img {
   display: block;
   width: 100%;
@@ -145,7 +152,7 @@ div .headline {
 .btn {
   background-color: #9fbfbf;
   border-radius: 10px;
-  box-shadow: 5px 5px 4px 4px #888888;
+  box-shadow: 5px 5px 4px 4px #888;
   color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 1.5em;
@@ -155,10 +162,6 @@ div .headline {
   text-align: center;
 }
 
-div .storefront {
-  float: left;
-}
-
 .storefront {
   background-color: #9fbfbf;
   border-radius: 10px;
@@ -166,15 +169,14 @@ div .storefront {
   padding: 1em 0;
 }
 
+div .storefront {
+  float: left;
+}
+
 .storefront img {
   display: block;
   width: 100%;
   max-width: 600px;
-}
-
-.storefront figcaption {
-  margin-bottom: 0;
-  text-align: center;
 }
 
 .hours {
@@ -208,6 +210,11 @@ figcaption {
   margin-bottom: 2em;
 }
 
+.storefront figcaption {
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .products p {
   margin-top: 0;
   padding: 0 2em;
@@ -229,13 +236,6 @@ figcaption {
   padding: 1em;
   margin: 1em;
   width: 95%;
-}
-
-ul img {
-  display: block;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .card-img img {
