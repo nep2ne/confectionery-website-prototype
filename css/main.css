@@ -269,13 +269,11 @@ address {
   text-align: center;
 }
 
-.footer1 {
-  border-top: 2px dotted #9fbfbf;
-}
-
 footer {
+  border-top: 2px dotted #9fbfbf;
   display: block;
   color: #8c6751;
+  padding-top: 1em;
   padding-left: 1em;
   margin-top: 1.5em;
   position: relative;
