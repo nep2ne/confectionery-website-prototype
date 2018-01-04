@@ -515,3 +515,16 @@ footer {
     font-size: 130%;
   }
 }
+
+@media only screen and (min-width: 100em) {
+
+  .banner-content {
+    margin-left: 22em;
+  }
+
+  .section1,
+  .section2 {
+    max-width: 1440px;
+    margin: 0 15em;
+  }
+}
