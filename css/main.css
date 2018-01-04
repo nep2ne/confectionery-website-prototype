@@ -150,7 +150,7 @@ div .storefront {
 .storefront {
   background-color: #9fbfbf;
   border-radius: 10px;
-  margin: 1em 1em 2em;
+  margin: 1em;
   padding: 1em 0;
 }
 
@@ -165,13 +165,20 @@ div .storefront {
   text-align: center;
 }
 
+.hours {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 0 2em;
+}
+
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #9fbfbf;
+  border-top: 2px solid #9fbfbf;
   margin: 1em 0;
   padding: 0 1em;
+  width: 100%;
 }
 
 .confectioners img {
@@ -184,18 +191,10 @@ figcaption {
   margin-bottom: 2em;
 }
 
-.coco {
-  margin-bottom: 2em;
-}
-
 .products p {
   margin-top: 0;
   padding: 0 2em;
 }
-
-/* .chocolates figure {
-  margin: 0 2rem 1.5rem;
-} */
 
 .cards {
   display: inline-block;
@@ -394,7 +393,10 @@ footer {
   }
 
   .hours {
-    padding: 0 6em;
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin-bottom: 1em;
   }
 }
 
@@ -417,10 +419,6 @@ footer {
   h2,
   p {
     margin: 0 0 1.5;
-  }
-
-  .hours {
-    padding: 0 15em;
   }
 
   ul .card {
